@@ -1,0 +1,178 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body {
+        background-color: rgb(245, 199, 207);
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    h1{
+        color: #1E1E1E;
+    }
+    .navbar {
+        background-color: #ffffff;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .navbar a {
+        float: left;
+        color: #1E1E1E;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .navbar a:hover {
+        background-color: #f9c1dd;
+        color: #1E1E1E;
+    }
+    
+    .navbar a.active {
+        /* background-color: #ea70bb; */
+        color: #1E1E1E;
+    }
+
+    #projects {
+        text-align: center;
+        padding: 50px 20px;
+        background: #FADADD;
+    }
+
+    .projects-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .project-card img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .project-card h3 {
+        margin: 15px 0 10px;
+        color: #E75480;
+    }
+
+    .project-card p {
+        font-size: 14px;
+        color: #333;
+    }
+
+    .project-card a {
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+        background: #E75480;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .project-card:hover {
+        transform: scale(1.05);
+    }
+
+    #skills {
+        text-align: center;
+        padding: 50px 20px;
+        background: #FADADD;
+        margin-top: 30px;
+
+    }
+
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 15px;
+        justify-content: center;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .skill-card {
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        font-weight: bold;
+        color: #E75480;
+        transition: transform 0.3s;
+    }
+
+    .skill-card:hover {
+        transform: scale(1.1);
+    }
+
+    .profile-container {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .profile-pic {
+        width: 150px;  
+        height: 150px; 
+        border-radius: 50%; /* Torna a imagem redonda */
+        object-fit: cover; /* Ajusta a imagem dentro do espaço */
+        border: 4px solid #E75480; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efeito de sombra */
+    }
+
+    #contact {
+        text-align: center;
+        padding: 50px 20px;
+    }
+    
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .social-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #ef2a65;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .social-btn:hover {
+        transform: scale(1.1);
+    }
+    
+    .download-cv {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #ef2a65;
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .download-cv:hover {
+        transform: scale(1.1);
+    }
+    
